@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    color: #1E3050;
+}
+
+.bg-container {
+    background-color: pink;
+    background-size: cover;
+    padding: 10px;
+}
+
+
+
+
+@media (min-width:768px) {
+    .bg-container {
+        height: 100vh;
+        width: 130vw;
+    }
+}
+
+
+
+.icon-para {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.profile-name-sec {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-color: #1E3050;
+    border-style: solid;
+}
+
+
+.profile-name {
+    font-size: 30px;
+}
+
+.para-elements {
+    font-size: 12px;
+}
+
+@media (min-width : 992px) {
+
+    .profile-name {
+        font-size: 40px;
+    }
+
+    .para-elements {
+        font-size: 22px;
+    }
+
+    .icon-para {
+        font-size: 26px;
+        text-align: center;
+    }
+}
+
+.profile-details-sec {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-color: #1E3050;
+    border-style: solid;
+}
+
+
+
+
+
+.line-break {
+    height: 10px;
+    border-color: black;
+}
+
+.skills-details-sec {
+    border-top: 3px;
+    border-left: 0px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-color: #1E3050;
+    border-style: solid;
+}
+
+.awards-details-sec {
+    border-top: 3px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-color: #1E3050;
+    border-style: solid;
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: #1E3050;
+    color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot1 {
+    height: 2px;
+    width: 2px;
+    background-color: #1E3050;
+    color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.skill-details {
+    margin-top: 5px;
+    font-size: 9px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.interests-sec {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-color: #1E3050;
+    border-style: solid;
+}
